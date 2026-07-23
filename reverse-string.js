@@ -8,4 +8,4 @@ function reverse(str) {
   return reversed;
 }
 
-console.log(reverse('Seperman'));
+console.log(reverse('Superman'));
