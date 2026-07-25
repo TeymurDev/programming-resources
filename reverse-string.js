@@ -1,11 +1,9 @@
 function reverse(str) {
-  let reversed = '';
+  const strToArray = str.split('');
 
-  for (let char of str) {
-    reversed = char + reversed;
-  }
+  strToArray.reverse();
 
-  return reversed;
+  return strToArray.join('');
 }
 
 console.log(reverse('Superman'));
