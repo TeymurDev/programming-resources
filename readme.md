@@ -2,4 +2,4 @@
 
 ## You can see resources from other git branches
 
-<span style="font-size: 4em;">🧑‍🎓</span>
+## 🧑‍🎓
