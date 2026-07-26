@@ -1,4 +1,4 @@
-# 🧑‍🎓
+# 🧑‍🎓👩‍🎓🤖
 
 ## This repo was created only for teaching purposes
 
