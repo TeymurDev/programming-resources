@@ -1,11 +1,7 @@
 function palindrome(str) {
   const reversed = str.split('').reverse().join('');
 
-  if (str === reversed) {
-    return true;
-  }
-
-  return false;
+  return str === reversed;
 }
 
-console.log(palindrome('superman'));
+console.log(palindrome('kayak'));
