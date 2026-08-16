@@ -4,16 +4,12 @@ function maxChar(str) {
   let maxChar = '';
 
   for (let char of str) {
-    if (charMap[char]) {
-      charMap[char] = charMap[char] + 1;
-    } else {
-      charMap[char] = 1;
-    }
+    charMap[char] = charMap[char] + 1 || 1;
   }
 
-  for (const [key, value] of Object.entries(charMap)) {
-    if (value > max) {
-      max = value;
+  for (let key in charMap) {
+    if (charMap[key] > max) {
+      max = charMap[key];
       maxChar = key;
     }
   }
